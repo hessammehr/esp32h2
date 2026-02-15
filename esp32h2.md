@@ -7,7 +7,7 @@
 - **Antenna:** 2.4GHz ceramic, on-module
 - **LDO:** ME6217C33M5G, 800mA max
 - **USB:** Type-C (programming/debug)
-- **LED:** WS2812 RGB
+- **LED:** WS2812 RGB on **GPIO8**
 - **Dimensions:** 18.00 × 23.50 mm, 2.54mm pitch, castellated pads
 - **Dev frameworks:** ESP-IDF, Arduino IDE
 
@@ -45,7 +45,7 @@
 | 27  | GPIO27 | FSPICS5, USB_D+, PWM |
 | 26  | GPIO26 | FSPICS4, USB_D-, PWM |
 | 9   | GPIO9  | BOOT (strapping pin) |
-| 8   | GPIO8  | LOG, PWM |
+| 8   | GPIO8  | LOG, WS2812, PWM |
 
 ## ADC Channels
 | Channel | GPIO |
