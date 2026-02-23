@@ -1,5 +1,8 @@
 # ESP32-H2-Zero (Waveshare) Quick Reference
 
+## SVD
+- Fetch the full SVD from the repo root with `make svd`.
+
 ## Core Specs
 - **SoC:** ESP32-H2FH4S — RISC-V 32-bit single-core @ 96MHz
 - **Flash:** 4MB (built-in)
