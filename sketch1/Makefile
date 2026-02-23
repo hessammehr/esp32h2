@@ -21,7 +21,7 @@ SRCS := start.S main.c
 OBJS := $(addprefix $(BUILD)/,$(SRCS:.c=.o))
 OBJS := $(OBJS:.S=.o)
 
-all: $(BUILD)/$(PROJECT).elf
+all: $(BUILD)/$(PROJECT).bin
 
 $(BUILD):
 	mkdir -p $(BUILD)
